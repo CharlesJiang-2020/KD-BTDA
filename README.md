@@ -4,11 +4,11 @@ KD-BTDA-Pytorch
 
 Requirements:
 =
-torch == 1.8.1+cu111
-torch-cluster           1.5.9
-torch-geometric         1.6.0
-torch-scatter           2.0.8
-torch-sparse            0.6.12
+torch == 1.8.1+cu111  
+torch-cluster           1.5.9  
+torch-geometric         1.6.0  
+torch-scatter           2.0.8  
+torch-sparse            0.6.12  
 sklearn
 
 ABIDE I dataset
