@@ -17,4 +17,4 @@ ABIDE I dataset
 
 Run
 =
-'<python KD-BTDA.py>'
+KD-BTDA.py
