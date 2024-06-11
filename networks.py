@@ -88,7 +88,7 @@ class AdversarialNetwork(nn.Module):
 
 
 class mlp1(nn.Module):
-    def __init__(self, networks_name, class_num=2, in_features=2000):
+    def __init__(self, networks_name, class_num=2, in_features=1500):
         super(mlp1, self).__init__()
         self.linear = nn.Sequential(
             nn.Linear(in_features, 256),
