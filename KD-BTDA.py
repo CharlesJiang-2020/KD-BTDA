@@ -167,9 +167,8 @@ for i in range(10):
                              dset_loaders['target_test'][args.target[1]].dataset.y,
                              dset_loaders['target_test'][args.target[2]].dataset.y,
                              dset_loaders['target_test'][args.target[3]].dataset.y), dim=0)
-    adj_all_test = contrast_adj(x_data_test)
 
-    test_data = Data(x=x_data_test, y=y_data_test, edge_attr=adj_all_test)
+    test_data = Data(x=x_data_test, y=y_data_test)
     dset_loaders['test'] = DataLoader(test_data)
 
     # set base network
